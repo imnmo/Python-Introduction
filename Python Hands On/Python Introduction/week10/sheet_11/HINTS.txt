@@ -1,0 +1,5 @@
+### UML Diagrams ###
+
+You can create your UML diagrams with the freely available diagram editor "dia".
+Those of you using Linux will be able to install it using their package manager.
+For Windows/Mac users: http://dia-installer.de/download/index.html

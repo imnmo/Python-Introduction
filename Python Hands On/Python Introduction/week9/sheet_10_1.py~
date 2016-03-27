@@ -1,0 +1,33 @@
+''' 1. POS-Tagged text (3 Points)
+
+On the course homepage, you can find a small example file containing
+POS-tagged text, where words are represented as follows:
+
+    <W TYPE="part of speech" ...>word</W>
+
+Write a program that reads the file and outputs just the word
+together with its POS (see example below).
+
+Example:
+
+python3 sheet_10_1.py sheet_10_1_example.txt
+
+should print:
+
+FACTSHEET NN1
+WHAT DTQ
+IS VBZ
+AIDS NN1
+...
+'''
+
+import sys
+import re
+
+def main():
+    with open(sys.argv[1]) as f:
+        # your code
+
+if __name__ == '__main__':
+    main()
+
